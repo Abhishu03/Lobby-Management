@@ -1,0 +1,32 @@
+/* navbaar.css */
+
+.narbarboddy {
+    background-color: #ECB159;
+    padding: 10px 0; /* Add padding to the navbar body */
+  }
+  
+  .navbarlinkgroup {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbarlinkgroup li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbarlinkgroup li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight:bold ;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  .navbarlinkgroup li a:hover {
+    background-color: #B67352;
+  }
+  
